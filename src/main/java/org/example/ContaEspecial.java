@@ -23,5 +23,4 @@ public class ContaEspecial extends ContaBancaria {
                 ", dataAbertura='" + super.getDataAbertura()+ '\'' +
                 '}';
     }
-
 }

@@ -8,5 +8,6 @@ public class ContaPoupancaService {
         this.novoSaldo = conta.getDiaRedimento() + ((conta.getSaldo() * (taxa/100))* conta.getDiaRedimento());
         conta.setSaldo(novoSaldo);
         return novoSaldo;
+
     }
 }
